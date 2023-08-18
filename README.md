@@ -31,6 +31,12 @@
 > This is the back-end of this project. To access the front end please follow the link below
 >
 <a href="https://github.com/muhammedb8826/doctor-appointment-frontend">React front End Link</a>
+
+**Kanban Board**
+> There are two contributers for this project and we both eqully contributed
+> Here is screenshoot of the kanban board
+![image](https://github.com/getssh/Doctors_appointment/assets/77828236/f66f50b2-ec8e-473c-a456-419fa2c0c1d1)
+
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
