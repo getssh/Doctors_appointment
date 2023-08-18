@@ -28,6 +28,8 @@
 > This is an application that use to make an appointements for a doctor visit. It can add many users and users can selected the doctor they choose. Also users can add doctor and can make reservations and can delete reservations and doctors.
 
 **React front-end Link**
+> This is the back-end of this project. To access the front end please follow the link below
+>
 <a href="https://github.com/muhammedb8826/doctor-appointment-frontend">React front End Link</a>
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -65,8 +67,8 @@
 
 ### Key Features <a id="key-features"></a>
 
-- Displaying of random greeting
-- Change greeting on very reload
+- Make the app more secuire by using hash and salting and taking other mesures
+- Add more responsivenss to small devices
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +93,8 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Node js in your local environment
+- Ruby
+- Rails framework
 
 ### Setup
 
@@ -98,31 +102,60 @@ Clone this repository to your desired folder:
 
 git clone https://github.com/getssh/Doctors_appointment
 
-cd hello-react-front-end
+``` cd Doctors_appointment
+```
 
 ### Install
 
 Install this project with:
+```
+bundle install
 
-npm install
+```
 
 ### Usage
 
-npm start
+Migrate to the database by excuting the following commands
 
+```
+rails db:create
+
+rails db:migrate
+
+rails db:schema:load
+
+```
+To start the application with some pre inserted data use
+
+```
+rails db:seed
+
+```
+And finally run the rails server
+
+```
+rails server
+
+```
 ### Run tests
 
 npm test
 
 ### Deployment
 
-npm run build
+Use Render or other similar platforms and follow the instructions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a id="authors"></a>
+
+👤 **Muhammed B**
+
+- GitHub: [@githubhandle](https://github.com/muhammedb8826)
+- Twitter: [@twitterhandle](https://twitter.com/muhammedb8826)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/muhammedb8826/)
 
 👤 **Getayawkal Tamrat**
 
