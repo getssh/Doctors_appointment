@@ -137,12 +137,6 @@ And finally run the rails server
 rails server
 
 ```
-For this development stage run rails on port 3001 as the front-end runs on 3000
-
-```
-rails s -p 3001
-
-```
 ### Run tests
 
 npm test
