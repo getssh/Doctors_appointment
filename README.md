@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 React Front End ](#-react-front-end-)
+- [📖 Doctor appointment ](#-doctor-appointment-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,12 +23,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 React Front End <a id="about-project"></a>
+# 📖 Doctor appointment <a id="about-project"></a>
 
 > This is an application that use to make an appointements for a doctor visit. It can add many users and users can selected the doctor they choose. Also users can add doctor and can make reservations and can delete reservations and doctors.
 
-**Rails Back-end Link**
-<a href="https://github.com/getssh/Doctors_appointment">Rails Back End Link</a>
+**React front-end Link**
+<a href="https://github.com/muhammedb8826/doctor-appointment-frontend">React front End Link</a>
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
@@ -38,7 +38,6 @@
 > Redux-toolkit
 > Webpack
 > Ruby on Rails
-> Jest
 
 <details>
   <summary>Client</summary>
