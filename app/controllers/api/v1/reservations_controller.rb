@@ -2,10 +2,10 @@ class Api::V1::ReservationsController < ApplicationController
   def index
     user = User.find_by(username: params[:user_username])
     if user.present?
-      reservations = Reservation.includes(:doctor).where(user: user)
+      reservations = Reservation.includes(:doctor).where(user:)
       if reservations.present?
         data = reservations.as_json(include: :doctor)
-        render json: { status: 'SUCCESS', message: 'Loaded all reservations', data: data }, status: :ok
+        render json: { status: 'SUCCESS', message: 'Loaded all reservations', data: }, status: :ok
       else
         render json: { status: 'ERROR', message: 'This user does not have reservations' }, status: :unprocessable_entity
       end
