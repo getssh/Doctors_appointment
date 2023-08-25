@@ -12,7 +12,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -145,10 +144,6 @@ And finally run the rails server
 rails server
 
 ```
-### Run tests
-
-npm test
-
 ### Deployment
 
 Use Render or other similar platforms and follow the instructions
