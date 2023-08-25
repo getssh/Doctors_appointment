@@ -181,7 +181,7 @@ Use Render or other similar platforms and follow the instructions
 
 ## 🤝 Contributing <a id="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature  requests are welcome!
 
 Feel free to check the [issues page](https://github.com/getssh/Doctors_appointment/issues/).
 
