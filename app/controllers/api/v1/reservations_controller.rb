@@ -5,7 +5,7 @@ class Api::V1::ReservationsController < ApplicationController
       reservations = Reservation.includes(:doctor).where(user:)
       if reservations.present?
         data = reservations.as_json(include: :doctor)
-        render json: { status: 'SUCCESS', message: 'Loaded all reservations', data: }, status: :ok
+        render json: data, status: :ok
       else
         render json: { status: 'ERROR', message: 'This user does not have reservations' }, status: :unprocessable_entity
       end
@@ -22,7 +22,8 @@ class Api::V1::ReservationsController < ApplicationController
     reservation.doctor = doctor
 
     if reservation.save
-      render json: { status: 'SUCCESS', message: 'Reservation saved', data: reservation }, status: :ok
+      data = reservation.as_json(include: :doctor)
+      render json: data, status: :ok
     else
       render json: { status: 'ERROR', message: 'Reservation not saved', data: reservation.errors },
              status: :unprocessable_entity
@@ -37,7 +38,7 @@ class Api::V1::ReservationsController < ApplicationController
     end
 
     if reservation.destroy
-      render json: { message: 'Deleted reservation' }, status: :ok
+      render json: { status: 'SUCCESS', message: 'Deleted reservation' }, status: :ok
     else
       render json: { status: 'ERROR', message: 'Reservation not deleted', data: reservation.errors },
              status: :unprocessable_entity
