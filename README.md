@@ -13,7 +13,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -38,6 +37,7 @@
 > Here is screenshoot of the kanban board
 > <a href='https://github.com/users/getssh/projects/2'>Link to Kanban board</a>
 >
+
 ![image](https://github.com/getssh/Doctors_appointment/assets/77828236/f66f50b2-ec8e-473c-a456-419fa2c0c1d1)
 
 ## 🛠 Built With <a id="built-with"></a>
@@ -146,10 +146,6 @@ And finally run the rails server
 rails server
 
 ```
-### Run tests
-
-npm test
-
 ### Deployment
 
 Use Render or other similar platforms and follow the instructions
@@ -179,7 +175,7 @@ Use Render or other similar platforms and follow the instructions
 ## 🔭 Future Features <a id="future-features"></a>
 
 
-- More animation and intractive rendering
+- More animation and intractive  rendering
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +183,7 @@ Use Render or other similar platforms and follow the instructions
 
 ## 🤝 Contributing <a id="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature  requests are welcome!
 
 Feel free to check the [issues page](https://github.com/getssh/Doctors_appointment/issues/).
 
