@@ -173,7 +173,7 @@ Use Render or other similar platforms and follow the instructions
 ## 🔭 Future Features <a id="future-features"></a>
 
 
-- More animation and intractive rendering
+- More animation and intractive  rendering
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
