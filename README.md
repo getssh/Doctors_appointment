@@ -7,6 +7,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [� Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -82,10 +83,10 @@
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a id="live-demo"></a>
+## 🚀 Live Demo <a id="live-demo"></a>
 
 
-- [N/A](N/A) -->
+- <a href="https://doc-appointment-n7zf.onrender.com/">Live Demo Link</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
