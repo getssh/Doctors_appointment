@@ -1,7 +1,7 @@
 databases:
   - name: doctor_app
-    databaseName: doctor_app_uc9g
-    user: doctor_app_uc9g_user
+    databaseName: doctor_app_ddn1
+    user: doctor_app_ddn1_user
 
 services:
   - type: web
